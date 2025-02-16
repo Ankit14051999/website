@@ -239,7 +239,7 @@ let data = [
             "count": 145
         }
     },
-    
+
 
 ]
 let temp = "";
@@ -250,10 +250,12 @@ for (let i = 0; i < data.length; i++) {
         <h3 class="title">${data[i].title}</h3>
         <p class="price">PRICE:${data[i].price}</p>
         <p class="rate">${data[i].rating.rate}</p>
+    
         <button >add to cart</button>
-        <button >Buy now</button>
-    </div>
-    `
+        <button ${onClick="buynow()"}>Buy now</button>
+    </div>`
+   
+    
 }
 
 document.getElementById("container").innerHTML = temp;
