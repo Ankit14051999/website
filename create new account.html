@@ -17,40 +17,19 @@
     <div id="cnewa">
       <form action="" class="signupform">
         <!-- NAME -->
-        <div class="fn">
-          <span class="firstname"
-            ><strong><label for="NAME"> FIRSTNAME:</label></strong></span
-          >
-          <span class="fni"
-            ><input type="text" id="NAME" placeholder=" NAME" required
-          /></span>
-        </div>
+          <strong><label for="NAME"> FIRSTNAME:</label></strong>
+          <input type="text" id="NAME" placeholder=" NAME" required/>
         <br />
         <!-- SURNAME -->
-         <div class="sn">
-            <span class="sname"></span><strong><label for="SURNAME"> LAST NAME:</label></strong></span>
-            <span class="isurname"></span><input type="text" id="SURNAME" placeholder="SURNAME" /></span>
-    </div><br />
-        <!-- MOBILE NUMBER -->
-        <strong><label for="mobile number">CONTACT NO</label></strong>
-        <input
-          type="number"
-          id="mobile number"
-          placeholder=" NUMBER"
-          required
-        />
+           <strong><label for="SURNAME"> LAST NAME:</label></strong>
+           <input type="text" id="SURNAME" placeholder="SURNAME" />
         <br />
-        <strong
-          ><label for="alternative number"
-            >ALTERNATIVE CONTACT NUMBER</label
-          ></strong
-        >
-        <input
-          type="number"
-          id="alternative number"
-          placeholder="ALTERNATIVE NUMBER"
-          required
-        />
+        <!-- MOBILE NUMBER -->
+        <strong><label for="mobile number">CONTACT NO:</label></strong>
+        <input type="number" id="mobile number" placeholder=" NUMBER" required min="1000000000" max="9999999999"/>
+        <br />
+        <strong><label for="alternative number">ALTERNATIVE CONTACT NUMBER</label></strong>
+         <input type="number" id="alternative number" placeholder="ALTERNATIVE NUMBER" required min="1000000000" max="9999999999"/>
         <br />
         <!-- A.MOBILE NUMBER -->
         <strong><label for="email">EMAIL</label></strong>
@@ -78,10 +57,10 @@
         <strong><label for="password">CREATE YOUR PASSWORD</label></strong>
         <input type="password" id="password" placeholder="PASSWORD" required />
         <br />
-        <strong><label for="password">RETYPE YOUR PASSWORD</label></strong>
+        <strong><label for="rpassword">RETYPE YOUR PASSWORD</label></strong>
         <input
           type="password"
-          id="password"
+          id="rpassword"
           placeholder="RETYPE YOUR PASSWORD"
           required
         />
@@ -95,4 +74,5 @@
       <a href="/login.html" id="1">login</a> -->
     </div>
   </body>
+  <script src="./index.js"></script>
 </html>

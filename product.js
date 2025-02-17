@@ -251,8 +251,9 @@ for (let i = 0; i < data.length; i++) {
         <p class="price">PRICE:${data[i].price}</p>
         <p class="rate">${data[i].rating.rate}</p>
     
-        <button class="add-to-cart">add to cart</button>
-        <button class="buy-now"}>Buy now</button>
+        <button onclick=atc() class="add-to-cart">add to cart</button>
+        <button onclick=buyn() class="buy-now">Buy now</button> 
+
     </div>`
    
     
@@ -260,23 +261,10 @@ for (let i = 0; i < data.length; i++) {
 
 document.getElementById("container").innerHTML = temp;
 
-document.addEventListener("DOMContentLoaded", function () {
-    const buyNowButtons = document.querySelectorAll(".buy-now");
-    buyNowButtons.forEach(button => {
-        button.addEventListener("click", function() {
-            buynow();  
-        });
-    });
 
-    const addToCartButtons = document.querySelectorAll(".add-to-cart");
-    addToCartButtons.forEach(button => {
-        button.addEventListener("click", function() {
-            alert("Added to Cart");// Call the 'add to cart' function when the button is clicked
-        });
-    });
-});
-
-// Your 'buynow' function
-function buynow() {
+function buyn() {
     window.open('./buynow.html');
+}
+function atc() {
+    alert("add your cart page here")
 }
