@@ -86,3 +86,33 @@ body {
 .bsociety {
   margin-bottom: 5px;
 }
+
+.paymentoptions{
+    -webkit-text-stroke-width: 100%;
+    font-size: 15px;
+
+
+    color: black;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    border-color: #DDD !important;
+    border-style: solid !important;
+    border-width: 0 0 2px 0 !important;
+    background-image: url(./PHOTO/1.jpg);
+    height: auto;
+    background-position-y: -13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.cpoption {
+    margin-left: 160px;
+    display: flex;
+    align-items: center;
+}
