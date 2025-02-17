@@ -38,9 +38,10 @@ body {
 .address {
     -webkit-text-stroke-width: 100%;
     font-size: 15px;
-    margin-top: 10px;
+
+
     color: black;
-    font-family: "Amazon Ember", Arial, sans-serif;
+    font-family: Arial, sans-serif;
     box-sizing: border-box;
     border-color: #DDD !important;
     border-style: solid !important;
@@ -54,18 +55,34 @@ body {
     align-items: flex-start;
     margin-bottom: 10px;
     border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
 }
-
-
 
 .deliveryaddress {
-    margin-top: 5px;
     margin-left: 160px;
+    display: flex;
+    align-items: center;
 }
 
-.dadredd {
-    margin-top: 5px;
-    margin-left: 160px;
-    text-align: center;
-    -webkit-text-stroke-width: 100%;
+.a-letter-space {
+    margin-right: 200px;
+}
+.bcaddress{
+    margin-right: 100px;
+    border-radius: 10px;
+}
+.btda{
+    border-radius: 10px;
+}
+.daddress{
+    margin-left: 510px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bhnumber,
+.bsociety {
+  margin-bottom: 5px;
 }
